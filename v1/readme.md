@@ -25,3 +25,57 @@
 #Style the Navbar and Form
 * Add a navbar to all templates
 * Style the new campground form
+
+#Add Mongoose
+* Install and configure mongoose
+* Setup campground model
+* Use campground model inside of our routes
+
+#Show Page
+* Review the RESTful routes we've seen so far
+* Add description to our campground model
+* Add a show route/template
+
+#Refactor Mongoose Code
+* Create a models directory
+* use module.exports
+* Require everything correctly!
+
+#Add Seeds File
+* Add a seeds.js file
+* Run the seeds file every time the server starts
+
+#Add the Comment model!
+* Make our errors go away!
+* Display comments on our campground show page
+
+#Comment New/Create
+* Discuss nested routes
+* Add the comment new and create routes
+* Add the new comment form
+
+#Style Show Page
+* Add sidebar to the show page
+* Display comments nicely
+
+#Add User Model, Register, Login and Logout
+* Install all packages needed for authentication
+* Define User model
+* Configure Passport
+* Add register route
+* Add register template
+* Add login routes
+* Add login template
+* Add logout route
+* Prevent user from adding comment if not signed in
+* Add links to navbar
+* Show/hide auth links in navbar correctly
+
+#
+*
+
+
+
+
+
+
