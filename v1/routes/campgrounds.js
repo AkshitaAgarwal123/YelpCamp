@@ -1,5 +1,5 @@
 var express       = require("express");
-var router        = express.Router();
+var router        = express.Router({mergeParams: true});
 var Campground 	  =	require("../models/campground");
 
 
@@ -15,7 +15,7 @@ router.get("/", function(req, res){
 	});
 });
 
-router.post("/", isLoggedIn(), function(req, res){
+router.post("/", isLoggedIn, function(req, res){
 	//get data from form and add to campgrounds array
 	var name = req.body.name;
 	var image = req.body.image;
@@ -35,7 +35,7 @@ router.post("/", isLoggedIn(), function(req, res){
 	});
 });
 
-router.get("/new", isLoggedIn(), function(req, res){
+router.get("/new", isLoggedIn, function(req, res){
 	res.render("campgrounds/new");
 });
 
@@ -60,6 +60,5 @@ function isLoggedIn(req, res, next){
 	}
 	res.redirect("/login");
 }
-
 
 module.exports = router;
