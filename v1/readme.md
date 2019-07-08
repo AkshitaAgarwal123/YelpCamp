@@ -71,8 +71,15 @@
 * Add links to navbar
 * Show/hide auth links in navbar correctly
 
+#Refactor The Routes
+* Use express router to recognize all routes
+* Associate users and comments
+* Save author's name to a comment automatically
+* Prevent an unauthorized user from creating a campground
+* Save username+id to newly created campground
+
 #
-*
+* 
 
 
 
