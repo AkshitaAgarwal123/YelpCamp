@@ -78,5 +78,32 @@
 * Prevent an unauthorized user from creating a campground
 * Save username+id to newly created campground
 
-#Add
-* 
+#Editing Campgrounds
+* Add Method-Override
+* Add edit route for campgrounds
+* Add link to edit page
+* Add update route
+* Fix $set problem
+
+#Deleting Campgrounds
+* Add destroy route
+* Add delete button
+
+#Authorization 
+* User can only edit his/her own campground
+* User can only delete his/her own campground
+* Hide/Show edit and delete buttons
+
+#Editing Comments
+* Add edit route for comments
+* Add edit button
+* Add update route
+
+#Deleting Comments
+* Add destroy route
+* Add delete button
+
+#Authorization
+* User can only edit his/her own comment
+* User can only delete his/her own comment
+* Hide/Show edit and delete buttons
